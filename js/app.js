@@ -48,7 +48,7 @@ function highlight(player){
         //When mouse is hovered 
         $("li.box").hover(
             function(){
-                $(this).css("background-image", "url(../img/o.svg)");
+                $(this).css("background-image", "url(./img/o.svg)");
             }, function(){
                 $(this).css("background-image", "");
                 });
@@ -60,7 +60,7 @@ function highlight(player){
         //When mouse is hovered
         $("li.box").hover(
             function(){
-                $(this).css("background-image", "url(../img/x.svg)");
+                $(this).css("background-image", "url(./img/x.svg)");
             }, function(){
                 $(this).css("background-image", "");
                 });
